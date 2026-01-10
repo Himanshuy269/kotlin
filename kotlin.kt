@@ -19,5 +19,8 @@ fun main(){
     val shortminvalue:Short = Short.MIN_VALUE
     println("short max value is $shortmaxvalue")
     println("short min value is $shortminvalue")
-
+    val longmaxvalue:Long = Long.MAX_VALUE
+    val longminvalue:Long = Long.MIN_VALUE
+    println("long max value is $longmaxvalue")
+    println("long min value is $longminvalue")
 }
