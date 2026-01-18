@@ -34,9 +34,55 @@
     var b=2.3
     println(b)//inference
 }*/
-fun main(){
-    val x=4
-    val y=5
-    val ans=x+y
-    println("result=$ans")
+// fun main(){
+//     val x=4
+//     val y=5
+//     val ans=x+y
+//     println("result=$ans")
+// }
+/*fun main(){
+    val x=5
+    if(x>=5){
+        print("true")
+    }
+    else if(x==5){
+        print("true2")
+    }
+    else println("false")
+}*/
+/*fun main(){
+    val x=3
+    val y=6
+    val ans=if(x>0|| y>0){ println("if case")
+   "hii"
+     //1
 }
+else{println("else case")
+//2 
+ "hello"}//only one thing can be print at once apart from print statement
+println(ans)
+}*/
+/*fun main(){
+    val text: String ?=null //null cannot be assigned to non-null values
+    println(text)
+}*/
+/*fun main(){
+    val text:String?="name"
+    if(text!=null){
+        println(text.length)
+    }
+    else println(":text is null")
+}*/
+/*fun main(){
+    var text:String ?="HELLO"
+    println(text?.length)
+}*/
+ /*fun main(){
+     var text:String? =null
+     println(text!!.length)
+ }*/
+    /*    fun main(){
+        var text:String? =null
+        var text2:String =text ?:"the variable is not null"
+        println(text2)
+    }*/
